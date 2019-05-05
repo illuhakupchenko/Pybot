@@ -7,7 +7,7 @@ bot = telebot.TeleBot("801359509:AAHjuBl_1xRdDHHTTacpT3Q1TSiXl_qQiCw")
 def send_welcome(message1):
     bot.send_message(message1.chat.id, '<strong>Приветствую!</strong>\N{Victory Hand}\nЯ первый бот <a href="https://illuhakupchenko.github.io">'
 									   'Ильи Серегеевича</a>, меня зовут Botty3000\N{Clown Face}\n'
-                                       'На данный момент мой фунционал\N{Gear} не очень богатый, но мой создатель '
+                                       'На данный момент мой фунционал\N{Gear} не очень велик, но мой создатель '
                                        'пообещал меня совершенствовать!\N{Game Die}', parse_mode="HTML")
 
 @bot.message_handler(content_types=['text'])
